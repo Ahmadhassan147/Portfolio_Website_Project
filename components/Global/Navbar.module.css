@@ -1,0 +1,48 @@
+.Navbar{
+    position: relative;
+    z-index: 10;
+}
+.conatiner{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 150px 0px 90px;
+}
+.conatiner h1 img{
+    height: 300px;
+    margin-top: 18px;
+}
+.conatiner ul{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+.conatiner ul a{
+    text-decoration: none;
+    margin: 0px 20px;
+    color: black;
+    font-weight: 500;
+}
+.responsiveForMobile{
+    display: none;
+}
+.Navbar ul li a:hover{
+    color: #2C7080;
+    transition: all 0.5s ease;
+}
+.Navarbtn{
+    padding: 7px 40px;
+    font-size: 15px;
+    font-weight: 500;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+.Navarbtn:hover{
+    background-color: #2C7080;
+    color: white;
+    transition: all 0.7s ease;
+}

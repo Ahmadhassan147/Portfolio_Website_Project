@@ -1,0 +1,66 @@
+.contianer{
+    margin-top: 300px;
+}
+.Wave{
+    margin-bottom: -5px solid #fdc435;
+}
+.footerArea{
+    background-color: #fdc435;
+    width: 100%;
+    margin-top: -8px;
+    padding-bottom: 40px;
+}
+.footerMenuArea{
+    display: flex;
+}
+.footerMenu{
+    display: flex ;
+    width: 50%;
+}
+.footerMenu div{
+    width: 50%;
+    padding-top: 70px;
+    /* padding-left: 90px; */
+    text-align: center;
+}
+.footertextArea{
+    width: 50%;
+    padding: 20px 150px;
+}
+.footertextArea img{
+    height: 200px;
+}
+.footertextArea p{
+    text-align: justify;
+}
+.footerMenu h2{
+    font-size: 25px;
+}
+.quicklinks{
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+    border-left: 2px solid rgba(0, 0, 0, 0.2);
+}
+.quicklinks ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+    transition: all 0.8s ease;
+}
+.quicklinks ul li a:hover{
+    color: #2C7080;
+}
+.CopyrightArea{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdc435;
+}
+.innercopyRightMessage{
+    border-top: 2px solid rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0px;
+    height: 100%;
+}

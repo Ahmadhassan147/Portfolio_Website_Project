@@ -1,0 +1,18 @@
+.container h1{
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container h1::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background-color: #fdc435;
+    bottom: 0;
+}

@@ -1,0 +1,95 @@
+.container{
+    padding: 0% 10%;
+    
+}
+.cardWrapper{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px  #fdc435;
+    box-shadow: inset -10px -10px #fdc435;
+    margin-bottom: 20px;
+}
+.cardContentArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainCardBox{
+    padding-left: 20px;
+}
+.mainCardBox h2{
+    font-size: 30px;
+    color: #fdc435;
+}
+.mainCardBox ul{
+    margin-top: 10px;
+    display: flex;
+}
+.mainCardBox ul li{
+    background-color: #fdc435;
+    margin: 0px 5px 0px 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 0px 10px
+}
+.mainCardBox ul li::marker{
+    color: #fdc435;
+}
+.personDescription{
+    font-size: 18px;
+    padding-right: 50px;
+    line-height: 35px;
+}
+.btnProfileCard{
+    margin-top: 30px;
+    display: flex;
+}
+
+.btnProfileCard button{
+    padding: 7px 40px;
+    font-size: 15px;
+    font-weight: 500;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #fdc435;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.btnProfileCard button:hover{
+    background-color: #2C7080;
+    color: white;
+    transition: all 0.7s ease;
+}
+.mainSkillsText {
+    color: #2C7080;
+    font-weight: 500;
+    margin-top: 10px;
+}
+/* .profileImage{
+
+}
+.profileImage img{
+    height: 300px;
+} */
+
+.projectCover{
+    height: 350px;
+    width: 460px;
+}
+.SocialBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Socialicons{
+    font-size: 40px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.skillsUsed{
+    display: flex;
+}
